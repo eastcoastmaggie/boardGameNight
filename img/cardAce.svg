@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 529 570" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:1;">
+    <g transform="matrix(1,0,0,1,-87.9889,-1059.53)">
+        <g transform="matrix(1.15805,-0.840399,0.840399,1.15805,-1509.04,472.56)">
+            <g transform="matrix(0.580952,0,0,0.722628,384.109,360.909)">
+                <path d="M713.66,1058.48C713.66,1030.07 684.975,1007.01 649.643,1007.01L420.461,1007.01C385.128,1007.01 356.443,1030.07 356.443,1058.48L356.443,1421.63C356.443,1450.03 385.128,1473.09 420.461,1473.09L649.643,1473.09C684.975,1473.09 713.66,1450.03 713.66,1421.63L713.66,1058.48Z" style="fill:white;stroke:white;stroke-width:35.53px;"/>
+            </g>
+            <g transform="matrix(0.580952,0,0,0.722628,384.109,360.909)">
+                <path d="M713.66,1058.48C713.66,1030.07 684.975,1007.01 649.643,1007.01L420.461,1007.01C385.128,1007.01 356.443,1030.07 356.443,1058.48L356.443,1421.63C356.443,1450.03 385.128,1473.09 420.461,1473.09L649.643,1473.09C684.975,1473.09 713.66,1450.03 713.66,1421.63L713.66,1058.48Z" style="fill:rgb(213,216,229);stroke:rgb(3,1,80);stroke-width:8.88px;"/>
+            </g>
+            <g transform="matrix(1.04017,0,0,0.942529,-33.5419,61.4686)">
+                <path d="M700.358,1242.43C710.743,1217.94 731.513,1217.94 741.899,1230.19C752.284,1242.43 752.284,1266.93 741.899,1291.42C734.629,1309.79 715.936,1328.16 700.358,1340.41C684.78,1328.16 666.086,1309.79 658.817,1291.42C648.432,1266.93 648.432,1242.43 658.817,1230.19C669.202,1217.94 689.973,1217.94 700.358,1242.43Z" style="fill:rgb(154,9,70);"/>
+            </g>
+            <g transform="matrix(1.66844,0,0,1.66844,-446.467,-766.084)">
+                <text x="632.01px" y="1151.22px" style="font-family:'NeutonCursive-Regular', 'Neuton Cursive';font-weight:500;font-size:46.001px;">A</text>
+            </g>
+            <g transform="matrix(-1.66844,0,0,-1.66844,1836.36,3283.01)">
+                <text x="632.01px" y="1151.22px" style="font-family:'NeutonCursive-Regular', 'Neuton Cursive';font-weight:500;font-size:46.001px;">A</text>
+            </g>
+        </g>
+    </g>
+</svg>

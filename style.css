@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: 'scrambleregular';
+    src: url('./fonts/scramble-kvbe-webfont.woff2') format('woff2'),
+         url('./fonts/scramble-kvbe-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Brady Bunch Remastered';
+    src: url('./fonts/Brady\ Bunch\ Remastered.woff2') format('woff2'),
+         url('./fonts/Brady\ Bunch\ Remastered.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-image: url('./img/BG.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+h1{
+    font-family: 'Brady Bunch Remastered';
+    font-size: 5.6rem;
+    letter-spacing: 1pt;
+    font-weight: bold;
+
+}
+h2{
+    font-family: 'scrambleregular';
+    font-size: 4rem;
+}
+.small{
+    position: absolute;
+    margin: -10px 0 0 -58px;
+    transform-origin: 0 0;
+    font-size: 3rem;
+    transform: rotate(-13deg);
+}
+.scrabble-letter{
+    margin: 1px;
+    background-color: rgb(235, 195, 66);
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.outline{
+    color: black;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
