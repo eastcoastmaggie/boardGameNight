@@ -129,6 +129,7 @@ grid-column: 1;
     font-size: 1rem;
     width: 100vw;
     padding: 18px 0;
+    z-index:3;
 }
 p{
     width: 60%;
