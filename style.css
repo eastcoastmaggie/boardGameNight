@@ -79,8 +79,8 @@ h2{
     -webkit-text-stroke-color: white;
 }
 #game-pieces{
-    top: 53%;
-    margin: 5% 0;
+    top: 55%;
+    margin: 4% 0;
     display: grid;
     justify-content: space-evenly;
     grid-template-columns:  repeat(4,  minmax(max-content, 20%));
@@ -94,7 +94,7 @@ h2{
 #meeple{
     padding-top: 8%;
     height: 70%;
-    animation: rotate4 3s ease 8 alternate;
+    animation: rotate4 3s ease 4 alternate;
 }
 #ace, #spade{
 position: relative;
@@ -130,6 +130,7 @@ grid-column: 1;
     width: 100vw;
     padding: 18px 0;
     z-index:3;
+
 }
 p{
     width: 60%;
@@ -138,16 +139,25 @@ p{
 
 
 }
-#date-time{
+#event{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    margin:0;
+    margin-top:20px;
+    padding:0;
     z-index: 2;
     background-color: rgb(84, 42, 233);
     width: 100vw;
+}
+#date-time{
     margin: 0;
     align-items: center;
     justify-content: center;
-    padding: 4% 0 0 0;
+    padding: 3% 0 0 0;
     display: flex;
     gap: 10px;
+    width: 100vw;
 }
 #day{
     font-family: 'Brady Bunch Remastered';
@@ -172,13 +182,11 @@ p{
     font-weight:bolder;
 }
 #place{
-    background-color: rgb(84, 42, 233);
     display:block;
     font-size: 2rem;
     line-height: 1.2;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight:bolder;
-    z-index:2;
     width: 100vw;
     text-align: center;
     padding: 0 0 4% 0;
@@ -192,6 +200,9 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
 }
 @media screen and (max-width: 600px) {
    h1{
@@ -201,14 +212,14 @@ p{
         font-size: 2rem;
     }
     h2{
-        font-size: 3rem;
+        font-size: 2.8rem;
         top:25%;
     }
     .parallax{
         margin: 0 0 5% 0;
     }
     #game-pieces{
-        top:40%
+        top:47%
     }
     .game-piece{
         height: 80%;
@@ -244,7 +255,6 @@ p{
         font-size: 1.3rem;
         letter-spacing: 1pt;
         font-weight:500;
-
     }
   }
   @media screen and (max-width: 450px) {
