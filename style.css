@@ -101,14 +101,14 @@ position: relative;
 grid-column: 1;
 }
 #ace{
-    height: 124px;
+    height: 134px;
     z-index: 2;
     left: 20px;
     transform-origin: 40px 20px;
     animation: rotate1 3s ease 4;
 }
 #spade{
-    height:120px;
+    height:130px;
     z-index: 1;
     right: 20px;
     animation: rotate2 3s ease 4;
