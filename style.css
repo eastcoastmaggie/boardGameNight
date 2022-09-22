@@ -54,6 +54,7 @@ h1{
 h2{
     font-family: 'scrambleregular';
     font-size: 3.5rem;
+    line-height: 1.2;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -67,7 +68,7 @@ h2{
     transform: rotate(-13deg);
 }
 .scrabble-letter{
-    margin: 1px;
+
     background-color: rgb(219, 193, 108);
     border-radius: 10px;
     overflow: hidden;
