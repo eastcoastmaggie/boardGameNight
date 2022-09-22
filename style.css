@@ -8,8 +8,7 @@
 }
 @font-face {
     font-family: 'Brady Bunch Remastered';
-    src: url('./fonts/Brady\ Bunch\ Remastered.woff2') format('woff2'),
-         url('./fonts/Brady\ Bunch\ Remastered.woff') format('woff');
+    src: url('./fonts/Brady\ Bunch\ Remastered.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -18,25 +17,25 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size:cover;
-    display:flex;
+    background-size: cover;
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
     padding: 0;
-    padding-top:5%;
+    padding-top: 5%;
     font-size: 12pt;
 }
 .parallax{
     z-index: 1;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 0 10% 0;
-    padding: 2% 0;
-    padding-top:5%;
+    padding: 1% 0;
+    padding-top: 4%;
     font-size: 12pt;
-    min-height:300px;
+    min-height:400px;
 }
 .parallax>div, .parallax>h1, .parallax>h2{
     position:fixed;
@@ -48,7 +47,7 @@ h1{
     font-weight: bold;
     padding: 0;
     margin: 0;
-    top: 10%;
+    top: 70px;
 
 }
 h2{
@@ -58,7 +57,7 @@ h2{
     padding: 0;
     margin: 0;
     text-align: center;
-    top: 30%
+    top: 190px
 }
 .small{
     position: absolute;
@@ -80,21 +79,21 @@ h2{
     -webkit-text-stroke-color: white;
 }
 #game-pieces{
-    top: 55%;
-    margin: 4% 0;
+    top: 320px;
+    margin: 7% 0;
     display: grid;
     justify-content: space-evenly;
-    grid-template-columns:  repeat(4,  minmax(max-content, 20%));
+    grid-template-columns:  repeat(4,  minmax(max-content, 22%));
     width: 80vw;
-    height: 100px;
+    max-height: 150px;
 }
 .game-piece{
-    height: 90%;
+    height: 94%;
     margin: 0px;
 }
 #meeple{
     padding-top: 8%;
-    height: 65%;
+    height: 70%;
     animation: rotate4 3s ease 4 alternate;
 }
 #ace, #spade{
@@ -102,24 +101,25 @@ position: relative;
 grid-column: 1;
 }
 #ace{
-    height: 134px;
+    height: 154px;
     z-index: 2;
     left: 20px;
     transform-origin: 40px 20px;
     animation: rotate1 3s ease 4;
 }
 #spade{
-    height:130px;
+    height:150px;
     z-index: 1;
     right: 20px;
     animation: rotate2 3s ease 4;
 }
 #die{
-    height: 54%;
+    height: 50%;
+    margin: 10px 0 0 20px ;
     animation: rotate2 3s ease 4;
 }
 #tile{
-    height: 80%;
+    height: 76%;
     grid-column: 2;
     animation: rotate3 3s ease 4;
 }
@@ -210,7 +210,7 @@ p{
     position: sticky;
     top: 0;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 910px) {
    h1{
       font-size: 4rem;
    }
