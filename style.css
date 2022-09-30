@@ -141,7 +141,7 @@ grid-column: 1;
     margin:0;
     margin-top:20px;
     padding:0;
-    z-index: 2;
+    z-index: 3;
     background-color: rgb(84, 42, 233);
     width: 100vw;
 }
@@ -151,7 +151,7 @@ grid-column: 1;
     top: 0;
     margin:0;
     padding: 20px 20vw;
-    z-index: 2;
+    z-index: 4;
     background-color: #9563fa;
     width: 100vw;
     display: flex;
@@ -202,7 +202,7 @@ grid-column: 1;
     padding: 0 0 4% 0;
 }
 #map-outer{
-    z-index:2;
+    z-index:5;
     background-color: #000;
     width: 100vw;
     padding: 0%;
@@ -221,7 +221,7 @@ grid-column: 1;
     font-size: 1.4rem;
     width: 100vw;
     padding: 40px 0;
-    z-index:3;
+    z-index:6;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
@@ -236,7 +236,7 @@ h3{
     margin: 40px 10%;
 }
 #faqs{
-    z-index: 4;
+    z-index: 7;
     background-color: rgb(74, 66, 148);
     text-decoration: none;
     margin: 0;
